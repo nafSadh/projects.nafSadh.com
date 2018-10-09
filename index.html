@@ -11,17 +11,10 @@
   <!--<link rel="stylesheet" href="https://unpkg.com/buefy/dist/buefy.min.css">-->
 
 
-  <link rel="stylesheet" href="css/bulma-carousel.min.css">
   <link rel="stylesheet" href="css/bulma-ribbon.min.css">
   <link rel="stylesheet" href="css/bulma-divider.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-  <!-- tiny slide -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.8.6/tiny-slider.css">
-  <!--[if (lt IE 9)]>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.8.6/min/tiny-slider.helper.ie8.js"></script>
-  <![endif]-->
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bg.css">
@@ -118,7 +111,7 @@
       </div>
       <div class="navbar-end">
         <a class="navbar-item" href="https://nafSadh.com/">
-          <i class="fab fa-home fa-lg is-hidden-touch"></i><span class="is-hidden-desktop"><i class="fab fa-home"></i>&nbsp;nafSadh.com</span>
+          <i class="fas fa-home fa-lg is-hidden-touch"></i><span class="is-hidden-desktop"><i class="fas fa-home"></i>&nbsp;nafSadh.com</span>
         </a>
         <a class="navbar-item" href="https://github.com/nafSadh">
           <i class="fab fa-github fa-lg is-hidden-touch"></i><span class="is-hidden-desktop"><i class="fab fa-github"></i>&nbsp;GitHub</span>
@@ -158,15 +151,7 @@
   </div>
 </footer>
 
-<script src="https://unpkg.com/vue"></script>
-<!--<script src="https://unpkg.com/buefy/dist/buefy.min.js"></script>-->
-<!-- import JavaScript -->
-<script src="https://unpkg.com/vue-truncate-collapsed"></script>
-
-<script src="js/bulma-carousel.min.js"></script>
-<script src="https://unpkg.com/tippy.js@3/dist/tippy.all.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.8.6/min/tiny-slider.js"></script>
-
+<script src="https://unpkg.com/vue"></script>>
 
 <script>
   var projects = [
@@ -458,7 +443,6 @@
   ];
 
 </script>
-<script src="//unpkg.com/vue2-scrollspy/dist/index.js"></script>
 <script>
   new Vue({
     el: '#skybeam',
@@ -468,35 +452,6 @@
     components: {
     }
   });
-
-  tns({
-    container: '.film-reel',
-    loop: true,
-    autoWidth: true,
-    items: 17,
-    slideBy: 1.25,
-    mouseDrag: true,
-    autoplayHoverPause: true,
-    autoplay: true,
-    speed: 400,
-    autoplayTimeout: 2000,
-    arrowKeys: true,
-    nav: false,
-    controls: false,
-    swipeAngle: false,
-    autoplayButtonOutput: false,
-    autoplayResetOnVisibility: false
-  });
-
-  bulmaCarousel.attach();
-
-  tippy.setDefaults({
-    arrow: true,
-    arrowType: 'round',
-    duration: 0,
-    theme: 'skybee',
-    placement: 'left-start'
-  })
 
   document.addEventListener('DOMContentLoaded', () => {
 
